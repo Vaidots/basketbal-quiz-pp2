@@ -155,3 +155,7 @@ let questions = [
         }   
        },
 ]
+
+const SCORE_POINTS = 20
+
+const MAX_QUESTIONS = 6
