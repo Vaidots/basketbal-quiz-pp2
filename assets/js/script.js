@@ -225,4 +225,8 @@ const checkAnswer = (questionID, answer) => {
           })
       }  
     })
+
+    setTimeout(() => {
+        newQuestion()
+    }, 1000)
 }
