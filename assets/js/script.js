@@ -172,4 +172,9 @@ newQuestion = () => {
     let infoMessage = document.getElementById("infoMessage");
     answerDiv.innerHTML = "";
     infoMessage.innerHTML = "";
+
+    if(availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
+        localStorage.setItem("mostRecentScore", score)
+        return window.location.assign("endgame.html")
+    }
 }
