@@ -211,7 +211,16 @@ const checkAnswer = (questionID, answer) => {
       if(value.question.id == questionID){
           value.question.answers.forEach(function(vAnswer, iAnswer){
               if(answer == vAnswer.answer){
-                  
+                  if(vAnswer.true == 1) {
+                      console.log("Correct Answer");
+                      let infoMessage = getElementById("infoMessage");
+                      infoMessage.innerHTML = "<i style='color: green; font-size: 5em;' class='fas fa-check fa-2xl'></i> <h1>Correct!</h1>"
+                      incrementScore(SCORE_POINTS);
+                  } else {
+                    console.log("Incorrect Answer");
+                    let infoMessage = document.getElementById("infoMessage");
+                    infoMessage.innerHTML = "<i style='color: red; font-size: 5em;' class='fas fa-times fa-2xl'></i> <h1>Incorrect!</h1>"
+                  }
               }
           })
       }  
