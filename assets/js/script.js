@@ -159,3 +159,10 @@ let questions = [
 const SCORE_POINTS = 20
 
 const MAX_QUESTIONS = 6
+
+startGame = () => {
+    questionCounter = 0;
+    score = 0;
+    availableQuestions = [...questions];
+    newQuestion()
+}
