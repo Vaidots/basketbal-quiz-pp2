@@ -15,5 +15,15 @@ const saveHighScore = () => {
             score: localStorage.getItem("mostRecentScore")
 
         }
+
+        let list = [];
+        list.push(JSON.stringify(data));
+        console.log(list)
+        localStorage.setItem("leaderboard", JSON.stringify(list));
+    } else {
+        let data = {
+            name: document.getElementById("username"). value,
+            score: localStorage.getItem("mostRecentScore")
+        }
     }
 }
