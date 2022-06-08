@@ -208,6 +208,12 @@ newQuestion = () => {
 
 const checkAnswer = (questionID, answer) => {
     question.forEach(function(value, index){
-        
+      if(value.question.id == questionID){
+          value.question.answers.forEach(function(vAnswer, iAnswer){
+              if(answer == vAnswer.answer){
+                  
+              }
+          })
+      }  
     })
 }
