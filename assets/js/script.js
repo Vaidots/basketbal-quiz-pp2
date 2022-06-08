@@ -205,3 +205,9 @@ newQuestion = () => {
 
     
 }
+
+const checkAnswer = (questionID, answer) => {
+    question.forEach(function(value, index){
+        
+    })
+}
