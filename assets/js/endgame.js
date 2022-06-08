@@ -27,7 +27,7 @@ const saveHighScore = () => {
         }
 
         console.log(leaderboard)
-        leaderboard = JSONparse(leaderboard)
+        leaderboard = JSON.parse(leaderboard)
         leaderboard.push(JSON.stringify(data))
         localStorage.setItem("leaderboard", JSON.stringify(leaderboard))
     }
