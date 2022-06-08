@@ -6,3 +6,14 @@ const getResults = () => {
     let finalScore = document.getElementById("finalScore");
     finalScore.innerHTML = score
 }
+
+const saveHighScore = () => {
+    let leaderboard = localStorage.getItem("leaderboard");
+    if(leaderboard == null) {
+        let data = {
+            name: document.getElementById("username"). value,
+            score: localStorage.getItem("mostRecentScore")
+
+        }
+    }
+}
