@@ -230,3 +230,8 @@ const checkAnswer = (questionID, answer) => {
         newQuestion()
     }, 1000)
 }
+
+const incrementScore = num => {
+    score +=num;
+    scoreText.innerText = score
+}
