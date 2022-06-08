@@ -175,3 +175,17 @@ form > input {
     }
     
 }
+
+@media (hover: hover) {
+    .high-score:hover {
+        transform: scale(1.025);
+    }
+}
+
+@media (hover: hover) {
+    .choice-container:hover {
+        cursor: pointer;
+        box-shadow: 0 0.4rem 1.4rem 0 rgba(126, 112, 92, 0.7);
+        transform: scale(1.02);
+    }
+}
