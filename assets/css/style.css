@@ -163,3 +163,15 @@ form > input {
 #leaderboard {
     font-size: 2.5rem;
 }
+
+@media screen and (max-width: 768px) {
+    .choice-container {
+        min-width: 30rem;
+    }
+
+    :root {
+        background-color: rgb(20, 17, 18);
+        font-size: 60%;
+    }
+    
+}
