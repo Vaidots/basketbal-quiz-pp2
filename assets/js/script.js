@@ -201,5 +201,7 @@ newQuestion = () => {
 
     })
 
+    availableQuestions.splice(questionIndex, 1);
+
     
 }
