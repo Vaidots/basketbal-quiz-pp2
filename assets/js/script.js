@@ -201,19 +201,19 @@ const newQuestion = () => {
 
     })
 
-    availableQuestions.splice(questionIndex, 1);
+    availableQuestions.splice(questionsIndex, 1);
 
     
 }
 
 const checkAnswer = (questionID, answer) => {
-    question.forEach(function(value, index){
+    questions.forEach(function(value, index){
       if(value.question.id == questionID){
           value.question.answers.forEach(function(vAnswer, iAnswer){
               if(answer == vAnswer.answer){
                   if(vAnswer.true == 1) {
                       console.log("Correct Answer");
-                      let infoMessage = getElementById("infoMessage");
+                      let infoMessage = document.getElementById("infoMessage");
                       infoMessage.innerHTML = "<i style='color: green; font-size: 5em;' class='fas fa-check fa-2xl'></i> <h1>Correct!</h1>"
                       incrementScore(SCORE_POINTS);
                   } else {
