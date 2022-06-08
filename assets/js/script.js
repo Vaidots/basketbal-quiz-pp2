@@ -186,4 +186,20 @@ newQuestion = () => {
     currentQuestion = availableQuestions[questionIndex];
 
     question.innerHTML = currentQuestion.question.question
+
+    currentQuestion.question.answers.forEach(function(value,index){
+        let choiceContainer = document.createElement("div");
+
+        choiceContainer.innerHTML = `
+        <p class="choice-prefix">${index+1}</p>
+        <p class="choice-text" data-number= "2">${value.answer}</p>
+        <input type= "hidden" value= "${currentQuestion.question.id}" />`
+
+        choiceContainer.setAttribute("onclick" , `checkAnswer(${currentQuestion.question.id}, "${value.answer}")`);
+        choiceContainer.classList.add("choice-container");
+        answersDiv.appendChild(choiceContainer)
+
+    })
+
+    
 }
