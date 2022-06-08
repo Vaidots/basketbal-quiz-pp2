@@ -166,3 +166,10 @@ startGame = () => {
     availableQuestions = [...questions];
     newQuestion()
 }
+
+newQuestion = () => {
+    let answerDiv = document.getElementById("answers");
+    let infoMessage = document.getElementById("infoMessage");
+    answerDiv.innerHTML = "";
+    infoMessage.innerHTML = "";
+}
