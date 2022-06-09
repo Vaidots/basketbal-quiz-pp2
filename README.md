@@ -22,3 +22,109 @@ This site was created to learn and be more familiar with development tools such 
 * [Jshint](https://jshint.com/)
 * [Responsive web](https://ui.dev/amiresponsive)was used to validate the responsiveness and generate mockup imagery to be used.
 
+# UX
+
+##Website owners goal
+
+* Create a fun quiz game to play.
+* Users to enjoy playing quiz game.
+* Create a fully responsive website on dekstop,mobile,tablet devices.
+* Provide interesting facts about basketball.
+
+## Users story
+
+* Start the game easily.
+* See questions and answer options.
+* See how many questions there is.
+* See progress bar.
+* Be able to view in different devices such as dekstop, tablet,mobile devices.
+* Navigate the pages, see if my answer is correct or incorrect, save results with username.
+* Check final score.
+
+## Reutrning User
+
+*I want to find new questions and quizezes.
+
+## Design
+
+## Color scheme
+
+the colours chosen for the project are :
+
+* background color: rgb(20, 17, 18);
+* font color : white;
+* index button : rgb(104 21 8 / 0%) 0%, rgb(235 188 192) 100%);
+* choices button : rgb(126, 112, 92, 0.7);
+* username input  : black;
+
+### Fonts
+
+* font-family:'ZCOOL XiaoWei', serif was the main font.
+
+## Features 
+
+* This quiz has four pages. Pages are being switched by clicking the buttons.
+
+![indexPage](assets/images/FirstPage.png)
+
+* The page consists of background colour h1 basketbal quiz game title and two buttons (Play and Leaderboard).
+* When clicked the Play button will send you to the game.
+* Leaderboard button will send the user to results section.
+
+![SecondPage](assets/images/SecondPage.png) 
+
+* Second page has progressbar , scoreboard, randomized question and answer choices.
+* Progressbar fills each time the user answers a question, to show the progress and question count changes accordingly.
+* Scoreboard gives 20 points per correct answers if answered wrong, continues to next question without giving points.
+* Choices are styled, everytime user hovers the choice it pops out to clarify which one was pointed.
+
+![ThirdPage](assets/images/ThirdPage.png)
+
+* Shows your score on the top, with a welcoming message.
+* User input is created so the user can write his name.
+* Save button allows to save the username, when clicked sends back to the main page.
+* Play again button when clicked will send you to the game page.
+* Go Back button will send to the main page when clicked.
+
+![FourthPage](assets/images/FourthPage.png)
+
+* When saving your score, you can navigate to leaderboard and it will open a page with Results.
+* Each results will be classified from highest to lowest, numerical orderd.
+
+Also when pressed on any choice a "Correct" or Incorrect" message will apppear to show your result.
+
+
+## Future Features
+
+* Will implement time counter.
+* Choose dificulity questions level.
+* Add backgroud music.
+* Add some images.
+* style better results section, maybe with an image or icons.
+
+
+## Testing
+
+* W3C Css validator no errors
+
+![CSS validator](assets/images/CSSValidator.png)
+
+* HTML checker no errors
+
+![HTMLchecker](assets/images/HTMLchecker.png)
+
+* Jshint 
+
+![Jshint](assets/images/Jshint.png)
+
+checkAnswer is being used as an attribute of an HTML element which passes two parameters, question ID and the answer itself
+checkAnswer is not used on actual JS due to it being initialised with "onclick" event on HTML.
+
+*Lightouse mobile results
+
+![Ligthousemobile](assets/images/LighthouseMobile.png)
+
+*Lighthouse dekstop results
+
+![LightouseDekstop](assets/images/LighthouseDekstop.png)
+
