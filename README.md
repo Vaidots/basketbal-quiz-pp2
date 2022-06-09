@@ -2,7 +2,7 @@
 
 Basketbal game quiz is a website for people who want to improve their knowledge about basketball and have fun with friends or family members. The primary gaol of this webpage is to enjoy, have fun and learn/check their knowledge about basketbal. The layout and content is simple to follow.
 
-![responsive](/assets/images/
+![responsive](/assets/images/Responsive.png)
 
 ## Project description 
 
