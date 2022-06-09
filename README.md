@@ -120,11 +120,39 @@ Also when pressed on any choice a "Correct" or Incorrect" message will apppear t
 checkAnswer is being used as an attribute of an HTML element which passes two parameters, question ID and the answer itself
 checkAnswer is not used on actual JS due to it being initialised with "onclick" event on HTML.
 
-*Lightouse mobile results
+* Lightouse mobile results
 
 ![Ligthousemobile](assets/images/LighthouseMobile.png)
 
-*Lighthouse dekstop results
+* Lighthouse dekstop results
 
 ![LightouseDekstop](assets/images/LighthouseDekstop.png)
 
+
+## Deployment
+
+
+
+
+- Firstly, creating a gitpod account, the main browser is being used Chrome. Add the gitpod extension into chrome, log into gitpod with your registered account, check for project github respirotry which will let you creat a new repository, when clicked on gitpod green button.
+
+* From GitHub navigate to the main page of the repository.
+* Select the "code" button above the file list.
+* Below the respitory, click Dowload
+* In your local IDE open a terminal.
+* Change the current working directory to the location where you want the cloned directory.
+* Type git clone and paste the URL you just copied.
+* Click enter and your local clone will be created.
+
+
+# Credits
+
+## Code
+
+* Code institutes, slack, stackoverFlow and [w3school](http://https://www.w3schools.com/) helped me a lot during the whole coding process.
+* Javascript build quiz tutorials [Youtube](https://www.youtube.com/playlist?list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx) and [Youtube](https://www.youtube.com/watch?v=f4fB9Xg2JEY)
+
+
+## Content
+
+* Content was take only for educational purpose [Content](http://www.freepubquiz.co.uk/basketball-quiz.html)
