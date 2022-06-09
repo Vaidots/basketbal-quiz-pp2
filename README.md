@@ -8,6 +8,17 @@ Basketbal game quiz is a website for people who want to improve their knowledge 
 
 This site was created to learn and be more familiar with development tools such as Gitpod, Git and Github to manage code. Website content was created with HTML, styled using CSS and functionality was implemented with JavaScript.
 
+## Table of contents
+
+1 [Technology](#technology)
+2 [UX](#ux)
+3 [Design](#design)
+4 [Features](#features)
+5 [Testing](#testing)
+6 [Deployment](#deployment)
+7 [Credits](#credits)
+8 [Content](#content)
+
 ## Technology
 
 * HTML5 - Structure the site.
@@ -41,7 +52,7 @@ This site was created to learn and be more familiar with development tools such 
 * Navigate the pages, see if my answer is correct or incorrect, save results with username.
 * Check final score.
 
-## Reutrning User
+## Returning User
 
 *I want to find new questions and quizezes.
 
@@ -123,7 +134,8 @@ checkAnswer is not used on actual JS due to it being initialised with "onclick" 
 
 * Lightouse mobile results
 
-![Ligthousemobile](assets/images/LightHouseMobile2.png)
+![Ligthousemobile](assets/images/LightHouseMobile2.png
+)
 
 * Lighthouse dekstop results
 
