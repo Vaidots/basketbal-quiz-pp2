@@ -21,3 +21,4 @@ This site was created to learn and be more familiar with development tools such 
 * [DevTools](https://developer.chrome.com/docs/devtools/) for editing existed project codes without doing any harm by writing a code on top, also to do a lighouse test for performace, SEO, best practice and accesability.
 * [Jshint](https://jshint.com/)
 * [Responsive web](https://ui.dev/amiresponsive)was used to validate the responsiveness and generate mockup imagery to be used.
+
