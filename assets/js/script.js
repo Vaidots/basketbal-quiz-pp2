@@ -1,3 +1,6 @@
+/*jshint esversion: 6 */
+/*jshint -W033 */ 
+
 const question = document.getElementById("question");
 const progressText = document.getElementById("progressText");
 const scoreText = document.getElementById("score");
