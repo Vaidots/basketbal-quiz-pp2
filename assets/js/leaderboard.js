@@ -1,4 +1,7 @@
-displayLeaderboard = () => {
+/*jshint esversion: 6 */
+/*jshint -W033 */
+
+const displayLeaderboard = () => {
     let leaderboard = localStorage.getItem("leaderboard");
     leaderboard = JSON.parse(leaderboard)
 
