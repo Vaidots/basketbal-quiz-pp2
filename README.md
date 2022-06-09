@@ -123,7 +123,7 @@ checkAnswer is not used on actual JS due to it being initialised with "onclick" 
 
 * Lightouse mobile results
 
-![Ligthousemobile](assets/images/LighthouseMobile.png)
+![Ligthousemobile](assets/images/LightHouseMobile2.png)
 
 * Lighthouse dekstop results
 
