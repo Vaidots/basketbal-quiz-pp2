@@ -56,6 +56,7 @@ the colours chosen for the project are :
 * index button : rgb(104 21 8 / 0%) 0%, rgb(235 188 192) 100%);
 * choices button : rgb(126, 112, 92, 0.7);
 * username input  : black;
+* progressbar color : rgb(255, 255, 0);
 
 ### Fonts
 
